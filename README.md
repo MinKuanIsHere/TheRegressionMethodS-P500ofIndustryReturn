@@ -1,0 +1,1 @@
+# TheRegressionMethodS-P500ofIndustryReturn
