@@ -5,7 +5,5 @@ Covid-19對於金融市場的衝擊影響是本穩探討的主要方向。本文
 
 # 方法
 本文探討S\&P500中的成分股產業股價漲幅是否有差異，當中我們會用產業(sector)以及2020年2月20日作為疫情發生的時間點，並根據產業以及公司進行迴歸分析，如\ref{equ:reg}。
-\begin{equation}\label{equ:reg}
-    Return_{i,j,t} = \sum_{j=1}^{n}\beta_j  D_{j} + \sum_{j=1}^{n} \tilde{\beta_j} D_{j} Covid_{t} + \epsilon_{i,j,t}
-\end{equation}
+$Return_{i,j,t} = \sum_{j=1}^{n}\beta_j  D_{j} + \sum_{j=1}^{n} \tilde{\beta_j} D_{j} Covid_{t} + \epsilon_{i,j,t}$
 其中$Return_{i,j,t}$指公司$i$是產業$j$在時間點$t$的股價日報酬；$D_{j}$指第$i$個產業；$Covid$指疫情發生的虛擬變數，若發生在2020年2月20日後則為1，反之，則為0。
